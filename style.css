@@ -281,7 +281,7 @@ img {
   }
 
   #nav .rowitems {
-    /* display: flex; */
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
   }
 }
