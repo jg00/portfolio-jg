@@ -84,6 +84,7 @@ img {
   background-color: brown;
   padding: 10px;
   color: cornsilk;
+  margin: 80px 0 0 0;
 }
 
 /****** Navigation ******/
@@ -220,6 +221,21 @@ img {
     background-color: lightgreen;
 } */
 
+#footer .rowitems {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+  /* align-items: stretch; */
+  /* justify-content: space-evenly; */
+  /* min-height: 30vh; */
+  /* flex-basis: 25vh; */
+  /* background-color: lightgreen; */
+
+  /* flex-grow: 1; */
+  /* padding: 10px; */
+}
+
 /* Flex items */
 .half {
   flex-basis: 50%;
@@ -244,6 +260,14 @@ img {
 /****** Image resize ******/
 .resize-small-img {
   width: 270px;
+  height: 100px;
+
+  margin-top: 0px;
+  padding: 0;
+}
+
+.resize-small-img-portfolio {
+  width: 300px;
   height: 100px;
 
   margin-top: 0px;
