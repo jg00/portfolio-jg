@@ -1,4 +1,4 @@
-### Portfolio
+## Portfolio
 
 
 Created a responsive portfolio site using the following: 
