@@ -1,6 +1,7 @@
 ### `Portfolio`
 
 Created a responsive website [Portfolio Site](https://portfolio-jg.herokuapp.com/) using the following: 
+
 CSS Flexbox
 CSS Media Queries
 
