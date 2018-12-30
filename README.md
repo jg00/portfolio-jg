@@ -3,9 +3,9 @@
 
 Created a responsive portfolio site using the following: 
 
-**:coffee:CSS Flexbox**
+**_:coffee:CSS Flexbox**_
 <br>
-**:coffee:CSS Media Queries**
+**_:coffee:CSS Media Queries**_
 
 [Welcome to my page](https://portfolio-jg.herokuapp.com/)
 <br>
