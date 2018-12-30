@@ -1,5 +1,5 @@
-### `Portfolio`
----
+### Portfolio
+
 
 Created a responsive [portfolio site](https://portfolio-jg.herokuapp.com/) using the following: 
 
