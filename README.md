@@ -1,7 +1,7 @@
 ## Portfolio
 
 
-Created a responsive portfolio site using the following: 
+Created a mobile responsive portfolio site with Flexbox and Media Queries.
 
 :coffee: **_CSS Flexbox_**
 <br>
