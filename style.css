@@ -176,12 +176,12 @@ img {
   /* padding: 10px; */
 }
 
-/* USGS - 3rd */
+/* USGS - 4th */
 #main #item-m1 {
   /* flex: 1 1 50%; */
   flex-grow: 1;
   flex-basis: 25%;
-  order: 3;
+  order: 4;
   /* background-color: orange; */
   /* border: 1px solid white; */
   /* padding: 10px 0; */
@@ -191,14 +191,14 @@ img {
   min-width: 325px;
 }
 
-/* Portfolio - 4th */
+/* Portfolio - 5th */
 #main #item-m2 {
   /* flex: 1 1 50%; */
   /* background-color: lightblue; */
   /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
-  order: 4;
+  order: 5;
   /* padding: 10px 0; */
 
   /* flex: 1 1 25%; */
@@ -229,6 +229,21 @@ img {
   flex-grow: 1;
   flex-basis: 25%;
   order: 2;
+  /* padding: 10px 0; */
+
+  /* flex: 1 1 25%; */
+  /* width: 25%; */
+  min-width: 325px;
+}
+
+/* Tennis-Anyone - 3rd */
+#main #item-m5 {
+  /* flex: 1 1 50%; */
+  /* background-color: green; */
+  /* padding: 10px; */
+  flex-grow: 1;
+  flex-basis: 25%;
+  order: 3;
   /* padding: 10px 0; */
 
   /* flex: 1 1 25%; */
