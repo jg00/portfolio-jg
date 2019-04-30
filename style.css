@@ -167,6 +167,7 @@ img {
   flex-wrap: wrap;
   /* width: 100%; */
   /* align-items: stretch; */
+  /* align-content: flex-start; */
   /* justify-content: space-evenly; */
   /* min-height: 30vh; */
   /* flex-basis: 25vh; */
@@ -176,12 +177,12 @@ img {
   /* padding: 10px; */
 }
 
-/* USGS - 4th */
+/* USGS - 5th */
 #main #item-m1 {
   /* flex: 1 1 50%; */
   flex-grow: 1;
   flex-basis: 25%;
-  order: 4;
+  order: 5;
   /* background-color: orange; */
   /* border: 1px solid white; */
   /* padding: 10px 0; */
@@ -191,14 +192,14 @@ img {
   min-width: 325px;
 }
 
-/* Portfolio - 5th */
+/* Portfolio - 6th */
 #main #item-m2 {
   /* flex: 1 1 50%; */
   /* background-color: lightblue; */
   /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
-  order: 5;
+  order: 6;
   /* padding: 10px 0; */
 
   /* flex: 1 1 25%; */
@@ -244,6 +245,21 @@ img {
   flex-grow: 1;
   flex-basis: 25%;
   order: 3;
+  /* padding: 10px 0; */
+
+  /* flex: 1 1 25%; */
+  /* width: 25%; */
+  min-width: 325px;
+}
+
+/* Grand-Hotel - 4th */
+#main #item-m6 {
+  /* flex: 1 1 50%; */
+  /* background-color: green; */
+  /* padding: 10px; */
+  flex-grow: 1;
+  flex-basis: 25%;
+  order: 4;
   /* padding: 10px 0; */
 
   /* flex: 1 1 25%; */
