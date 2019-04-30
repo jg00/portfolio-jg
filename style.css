@@ -1,8 +1,5 @@
 html {
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: "Quicksand", sans-serif;
-  /* font-size: 1.5em; */
-  /* background-color: lightslategray; */
 }
 
 body {
@@ -46,10 +43,6 @@ img {
 
 /* Main Container */
 #main-container {
-  /* display: flex;
-    flex-direction: column;*/
-  /* border: 1px solid darkgoldenrod; */
-
   max-width: 975px;
   margin: 0 auto;
   padding: 0;
@@ -57,28 +50,19 @@ img {
 
 /* Section Settings */
 .class-section-settings {
-  /* border: 1px solid red; */
   padding: 0 10 10px 0;
 }
 
 /* Sections - Base Settings */
 #nav {
-  /* border: 1px solid lightgrey; */
-  /* border: 1px solid #e0eaf4; */
-  /* background-color: green; */
   padding: 10px 0;
 }
 #header {
-  /* border: 1px solid lightgrey; */
   /* background-color: #f7f6f4; */
   background-color: #001f3f;
   padding: 10px 0 20px 0;
-  /* color: cornsilk; */
 }
 #main {
-  /* border: 1px solid lightgrey; */
-  /* border: 1px solid #e0eaf4; */
-  /* background-color: pink; */
   padding: 10px 0;
 }
 #footer {
@@ -103,28 +87,16 @@ img {
 
 #nav .rowitems {
   display: flex;
-  /* justify-content: center; */
-  /* background-color: white; */
 }
 
 #nav .h2-padding {
   margin: 0;
-  /* background-color: blue; */
 }
 
 /****** Section Details - Header ******/
 #header .rowitems {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* align-items: stretch; */
-  /* justify-content: space-evenly; */
-  /* min-height: 30vh; */
-
-  /* flex-basis: 500vh; */
-
-  /* padding: 10px; */
-
   min-width: 325px;
 }
 
@@ -134,13 +106,8 @@ img {
   /* background-color: #f7f6f4; */
   background-color: #001f3f;
   padding: 0 0 0 0;
-
   color: white;
   text-align: center;
-
-  /* flex-basis: 20%; */
-
-  /* justify-content: stretch; */
 }
 
 #header #item-h2 {
@@ -149,9 +116,6 @@ img {
   flex: 3 1 80%;
   /* background-color: #f7f6f4; */
   background-color: #001f3f;
-  /* padding: 10px; */
-  /* flex-grow: 3; */
-  /* flex-shrink: 1;  */
 
   padding: 0 10px;
   font-size: 1em;
@@ -171,18 +135,7 @@ img {
 /* Section Details - Main */
 #main .rowitems {
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
-  /* width: 100%; */
-  /* align-items: stretch; */
-  /* align-content: flex-start; */
-  /* justify-content: space-evenly; */
-  /* min-height: 30vh; */
-  /* flex-basis: 25vh; */
-  /* background-color: lightgreen; */
-
-  /* flex-grow: 1; */
-  /* padding: 10px; */
 }
 
 /* USGS - 5th */
@@ -191,87 +144,54 @@ img {
   flex-grow: 1;
   flex-basis: 25%;
   order: 5;
-  /* background-color: orange; */
-  /* border: 1px solid white; */
-  /* padding: 10px 0; */
-
-  /* flex: 1 1 25%; */
-  /* width: 25%;*/
   min-width: 325px;
 }
 
 /* Portfolio - 6th */
 #main #item-m2 {
-  /* flex: 1 1 50%; */
-  /* background-color: lightblue; */
-  /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
   order: 6;
-  /* padding: 10px 0; */
-
-  /* flex: 1 1 25%; */
-  /* width: 25%; */
   min-width: 325px;
 }
 
 /* Nama Shopping Cart - 1st */
 #main #item-m3 {
-  /* flex: 1 1 50%; */
-  /* background-color: green; */
-  /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
   order: 1;
-  /* padding: 10px 0; */
-
-  /* flex: 1 1 25%; */
-  /* width: 25%; */
   min-width: 325px;
 }
 
 /* MJ-Burgers React - 2nd */
 #main #item-m4 {
-  /* flex: 1 1 50%; */
-  /* background-color: green; */
-  /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
   order: 2;
-  /* padding: 10px 0; */
-
-  /* flex: 1 1 25%; */
-  /* width: 25%; */
   min-width: 325px;
 }
 
-/* Tennis-Anyone - 3rd */
+/* Tennis-Anyone - 7th */
 #main #item-m5 {
-  /* flex: 1 1 50%; */
-  /* background-color: green; */
-  /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
-  order: 3;
-  /* padding: 10px 0; */
-
-  /* flex: 1 1 25%; */
-  /* width: 25%; */
+  order: 7;
   min-width: 325px;
 }
 
 /* Grand-Hotel - 4th */
 #main #item-m6 {
-  /* flex: 1 1 50%; */
-  /* background-color: green; */
-  /* padding: 10px; */
   flex-grow: 1;
   flex-basis: 25%;
   order: 4;
-  /* padding: 10px 0; */
+  min-width: 325px;
+}
 
-  /* flex: 1 1 25%; */
-  /* width: 25%; */
+/* Pool Table Management App (Python) - 3rd */
+#main #item-m7 {
+  flex-grow: 1;
+  flex-basis: 25%;
+  order: 3;
   min-width: 325px;
 }
 
@@ -283,16 +203,6 @@ img {
 #footer .rowitems {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* width: 100%; */
-  /* align-items: stretch; */
-  /* justify-content: space-evenly; */
-  /* min-height: 30vh; */
-  /* flex-basis: 25vh; */
-  /* background-color: lightgreen; */
-
-  /* flex-grow: 1; */
-  /* padding: 10px; */
 }
 
 /* Flex items */
@@ -321,7 +231,6 @@ img {
 .resize-small-img {
   width: 270px;
   height: 100px;
-
   margin-top: 0px;
   padding: 0;
 }
@@ -329,7 +238,6 @@ img {
 .resize-small-img-portfolio {
   width: 300px;
   height: 100px;
-
   margin-top: 0px;
   padding: 0;
 }
@@ -337,7 +245,6 @@ img {
 .resize-med-img-portfolio {
   width: 200px;
   height: 125px;
-
   margin-top: 0px;
   padding: 0;
 }
