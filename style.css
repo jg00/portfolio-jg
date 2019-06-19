@@ -7,23 +7,6 @@ body {
   min-height: 100vh;
 }
 
-img {
-  width: 140px;
-  height: 220px;
-
-  margin-top: 16px;
-  padding: 0px 10px 0 20px;
-}
-
-/* Image 170x220 */
-/* #item-h1 {
-  border: 1px solid green;
-} */
-
-/* .img-selfie {
-  border-radius: 50% 50%;
-} */
-
 /* Spacing for content all ar0und */
 .class-content-attributes {
   padding: 10px;
@@ -117,6 +100,7 @@ img {
   padding: 0 0 0 0;
   color: white;
   text-align: center;
+  /* vertical-align: top */
 }
 
 #header #item-h2 {
@@ -141,6 +125,32 @@ img {
   font-size: 1em;
 }
 
+/* Image */
+/* .image-container { */
+/* border: 1px solid yellow; */
+/* border-radius: 20% 20% 20% 20%; */
+/* overflow: hidden; */
+/* } */
+
+img {
+  width: 140px;
+  height: 210px;
+
+  margin: 1rem auto;
+  padding: 0px 20px 0 20px;
+  vertical-align: top;
+}
+
+/* Image 170x220 */
+/* #item-h1 {
+  border: 1px solid green;
+} */
+
+/* .img-selfie {
+  border-radius: 50% 50%;
+} */
+
+/* Resume */
 .resume__link {
   text-decoration: none;
   color: white;
