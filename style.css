@@ -15,6 +15,15 @@ img {
   padding: 0px 10px 0 20px;
 }
 
+/* Image 170x220 */
+/* #item-h1 {
+  border: 1px solid green;
+} */
+
+/* .img-selfie {
+  border-radius: 50% 50%;
+} */
+
 /* Spacing for content all ar0und */
 .class-content-attributes {
   padding: 10px;
@@ -130,6 +139,21 @@ img {
 
   margin: 0;
   font-size: 1em;
+}
+
+.resume__link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 1.1rem;
+  transition: all 0.5s;
+}
+
+.resume__link:hover,
+.resume__link:active {
+  color: orangered;
+  font-size: 1.25rem;
 }
 
 /* Section Details - Main */
